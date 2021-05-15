@@ -19,5 +19,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 - script: |
+    python -m pip install Pillow
     python -m pytest
   displayName: Run Pytest
