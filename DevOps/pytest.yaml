@@ -22,4 +22,7 @@ steps:
 - script: |
     python -m pip install Pillow
     python -m pytest
-  displayName: Run Pytest
+    pip install pytest-cov 
+    pip install pytest-xdist 
+    pip install pytest-bdd
+  displayName: Install necessary libraries
